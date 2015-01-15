@@ -8,212 +8,42 @@
 #---
 # encoding: utf-8
 Product.delete_all
-Product.create!(title: 'Virgin human hair extension - Straight',
+Product.create!(title: 'Programming in Ruby 2.0',
   description: 
     %{<p>
         SKU: MLS95STNB08A1VG ,
-        Human Hair: 100%, 
-        Wearer’s Ethnicity: Asian ,
-        Cuticle Condition: Sightly thinner than those premium ones , 
-        Hair Shaft Alignment: a few exceptions are found but can hardly be noticed , 
-        Wefting: Solid machine weft ,
-        Color: Natural Black ,
-        Style:  Straight ,
-        Weight: ~95g , 
-        Size: 8 inch    
+        Introduction to ruby programming
      </p>},
-  image_url:   'http://cdn.shopify.com/s/files/1/0702/3995/products/straight_6163c035-94a8-4436-89a9-21639283ea10.jpg?v=1417757352',    
+  image_url:   'https://imagery.pragprog.com/products/355/ruby4.jpg',    
   price: 15.99)
 
-Product.create!(title: 'Virgin human hair extension - Straight',
+Product.create!(title: 'Ruby on Rails 4.0',
   description: 
     %{<p>
         SKU: MLS95STNB10A1VG ,
-        Human Hair: 100%, 
-        Wearer’s Ethnicity: Asian ,
-        Cuticle Condition: Sightly thinner than those premium ones , 
-        Hair Shaft Alignment: a few exceptions are found but can hardly be noticed , 
-        Wefting: Solid machine weft ,
-        Color: Natural Black ,
-        Style:  Straight ,
-        Weight: ~95g , 
-        Size: 10 inch    
+        Introduction to Rails application
      </p>},
-  image_url:   'http://cdn.shopify.com/s/files/1/0702/3995/products/straight_6163c035-94a8-4436-89a9-21639283ea10.jpg?v=1417757352',    
+  image_url:   'https://imagery.pragprog.com/products/389/nrtest2.jpg',    
   price: 19.99)
 
 
-Product.create!(title: 'Virgin human hair extension - Straight',
+Product.create!(title: 'Hadoop in action 2.0',
   description: 
     %{<p>
         SKU: MLS95STNB12A1VG ,
-        Human Hair: 100%, 
-        Wearer’s Ethnicity: Asian ,
-        Cuticle Condition: Sightly thinner than those premium ones , 
-        Hair Shaft Alignment: a few exceptions are found but can hardly be noticed , 
-        Wefting: Solid machine weft ,
-        Color: Natural Black ,
-        Style:  Straight ,
-        Weight: ~95g , 
-        Size: 12 inch    
-     </p>},
-  image_url:   'http://cdn.shopify.com/s/files/1/0702/3995/products/straight_6163c035-94a8-4436-89a9-21639283ea10.jpg?v=1417757352',    
+        Learn Haddop, become a data scientist
+    </p>},
+  image_url:   'https://imagery.pragprog.com/products/249/dccar.jpg',    
   price: 25.99)
 
 
-Product.create!(title: 'Virgin human hair extension - Straight',
+Product.create!(title: 'Introduction to MapReduce',
   description: 
     %{<p>
         SKU: MLS95STNB14A1VG ,
-        Human Hair: 100%, 
-        Wearer’s Ethnicity: Asian ,
-        Cuticle Condition: Sightly thinner than those premium ones , 
-        Hair Shaft Alignment: a few exceptions are found but can hardly be noticed , 
-        Wefting: Solid machine weft ,
-        Color: Natural Black ,
-        Style:  Straight ,
-        Weight: ~95g , 
-        Size: 14 inch    
+        Learn process data in much less time.
      </p>},
-  image_url:   'http://cdn.shopify.com/s/files/1/0702/3995/products/straight_6163c035-94a8-4436-89a9-21639283ea10.jpg?v=1417757352',    
+  image_url:   'https://imagery.pragprog.com/products/196/rails4.jpg',    
   price: 32.99)
-
-
-Product.create!(title: 'Virgin human hair extension - Straight',
-  description: 
-    %{<p>
-        SKU: MLS95STNB16A1VG ,
-        Human Hair: 100%, 
-        Wearer’s Ethnicity: Asian ,
-        Cuticle Condition: Sightly thinner than those premium ones , 
-        Hair Shaft Alignment: a few exceptions are found but can hardly be noticed , 
-        Wefting: Solid machine weft ,
-        Color: Natural Black ,
-        Style:  Straight ,
-        Weight: ~95g , 
-        Size: 16 inch    
-     </p>},
-  image_url:   'http://cdn.shopify.com/s/files/1/0702/3995/products/straight_6163c035-94a8-4436-89a9-21639283ea10.jpg?v=1417757352',    
-  price: 38.99)
-
-Product.create!(title: 'Virgin human hair extension - Straight',
-  description: 
-    %{<p>
-        SKU: MLS95STNB18A1VG ,
-        Human Hair: 100%, 
-        Wearer’s Ethnicity: Asian ,
-        Cuticle Condition: Sightly thinner than those premium ones , 
-        Hair Shaft Alignment: a few exceptions are found but can hardly be noticed , 
-        Wefting: Solid machine weft ,
-        Color: Natural Black ,
-        Style:  Straight ,
-        Weight: ~95g , 
-        Size: 18 inch    
-     </p>},
-  image_url:   'http://cdn.shopify.com/s/files/1/0702/3995/products/straight_6163c035-94a8-4436-89a9-21639283ea10.jpg?v=1417757352',    
-  price: 44.99)
-
-Product.create!(title: 'Virgin human hair extension - Straight',
-  description: 
-    %{<p>
-        SKU: MLS95STNB20A1VG ,
-        Human Hair: 100%, 
-        Wearer’s Ethnicity: Asian ,
-        Cuticle Condition: Sightly thinner than those premium ones , 
-        Hair Shaft Alignment: a few exceptions are found but can hardly be noticed , 
-        Wefting: Solid machine weft ,
-        Color: Natural Black ,
-        Style:  Straight ,
-        Weight: ~95g , 
-        Size: 20 inch    
-     </p>},
-  image_url:   'http://cdn.shopify.com/s/files/1/0702/3995/products/straight_6163c035-94a8-4436-89a9-21639283ea10.jpg?v=1417757352',    
-  price: 51.99)
-
-Product.create!(title: 'Virgin human hair extension - Straight',
-  description: 
-    %{<p>
-        SKU: MLS95STNB22A1VG ,
-        Human Hair: 100%, 
-        Wearer’s Ethnicity: Asian ,
-        Cuticle Condition: Sightly thinner than those premium ones , 
-        Hair Shaft Alignment: a few exceptions are found but can hardly be noticed , 
-        Wefting: Solid machine weft ,
-        Color: Natural Black ,
-        Style:  Straight ,
-        Weight: ~95g , 
-        Size: 22 inch    
-     </p>},
-  image_url:   'http://cdn.shopify.com/s/files/1/0702/3995/products/straight_6163c035-94a8-4436-89a9-21639283ea10.jpg?v=1417757352',    
-  price: 58.99)
-
-Product.create!(title: 'Virgin human hair extension - Straight',
-  description: 
-    %{<p>
-        SKU: MLS95STNB24A1VG ,
-        Human Hair: 100%, 
-        Wearer’s Ethnicity: Asian ,
-        Cuticle Condition: Sightly thinner than those premium ones , 
-        Hair Shaft Alignment: a few exceptions are found but can hardly be noticed , 
-        Wefting: Solid machine weft ,
-        Color: Natural Black ,
-        Style:  Straight ,
-        Weight: ~95g , 
-        Size: 24 inch    
-     </p>},
-  image_url:   'http://cdn.shopify.com/s/files/1/0702/3995/products/straight_6163c035-94a8-4436-89a9-21639283ea10.jpg?v=1417757352',    
-  price: 66.99)
-
-
-Product.create!(title: 'Virgin human hair extension - Straight',
-  description: 
-    %{<p>
-        SKU: MLS95STNB26A1VG ,
-        Human Hair: 100%, 
-        Wearer’s Ethnicity: Asian ,
-        Cuticle Condition: Sightly thinner than those premium ones , 
-        Hair Shaft Alignment: a few exceptions are found but can hardly be noticed , 
-        Wefting: Solid machine weft ,
-        Color: Natural Black ,
-        Style:  Straight ,
-        Weight: ~95g , 
-        Size: 26 inch    
-     </p>},
-  image_url:   'http://cdn.shopify.com/s/files/1/0702/3995/products/straight_6163c035-94a8-4436-89a9-21639283ea10.jpg?v=1417757352',    
-  price: 72.99)
-
-Product.create!(title: 'Virgin human hair extension - Straight',
-  description: 
-    %{<p>
-        SKU: MLS95STNB28A1VG ,
-        Human Hair: 100%, 
-        Wearer’s Ethnicity: Asian ,
-        Cuticle Condition: Sightly thinner than those premium ones , 
-        Hair Shaft Alignment: a few exceptions are found but can hardly be noticed , 
-        Wefting: Solid machine weft ,
-        Color: Natural Black ,
-        Style:  Straight ,
-        Weight: ~95g , 
-        Size: 28 inch    
-     </p>},
-  image_url:   'http://cdn.shopify.com/s/files/1/0702/3995/products/straight_6163c035-94a8-4436-89a9-21639283ea10.jpg?v=1417757352',    
-  price: 79.99)
-
-Product.create!(title: 'Virgin human hair extension - Straight',
-  description: 
-    %{<p>
-        SKU: MLS95STNB30A1VG ,
-        Human Hair: 100%, 
-        Wearer’s Ethnicity: Asian ,
-        Cuticle Condition: Sightly thinner than those premium ones , 
-        Hair Shaft Alignment: a few exceptions are found but can hardly be noticed , 
-        Wefting: Solid machine weft ,
-        Color: Natural Black ,
-        Style:  Straight ,
-        Weight: ~95g , 
-        Size: 30 inch    
-     </p>},
-  image_url:   'http://cdn.shopify.com/s/files/1/0702/3995/products/straight_6163c035-94a8-4436-89a9-21639283ea10.jpg?v=1417757352',    
-  price: 85.99)
 
 
